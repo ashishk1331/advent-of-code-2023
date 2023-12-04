@@ -3,7 +3,7 @@ def slugify(s):
 
 def main():
 	string = """
-		Cube Conundrum
+		Scratchcards
 	"""
 	print(slugify(string))
 

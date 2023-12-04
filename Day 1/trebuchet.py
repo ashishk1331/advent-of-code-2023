@@ -46,7 +46,7 @@ def main():
 	input = []
 
 	with open("input.txt", "r") as file:
-		input = file.read().split("\n") + [""]
+		input = file.read().split("\n")
 
 	# print(part_one(input))
 	print(part_two(input))
