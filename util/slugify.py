@@ -3,7 +3,7 @@ def slugify(s):
 
 def main():
 	string = """
-		Scratchcards
+		If You Give A Seed A Fertilizer
 	"""
 	print(slugify(string))
 
