@@ -10,3 +10,5 @@ Hi everyone! I'm going to solve the problems in python.
 - [x] Day 2
 - [x] Day 3
 - [x] Day 4
+- [x] Day 5 1/2
+- [x] Day 6
