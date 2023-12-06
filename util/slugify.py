@@ -3,7 +3,7 @@ def slugify(s):
 
 def main():
 	string = """
-		If You Give A Seed A Fertilizer
+		Wait For It
 	"""
 	print(slugify(string))
 

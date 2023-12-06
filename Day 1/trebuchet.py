@@ -1,18 +1,14 @@
 # PART 1: sum of all the calibration values
 def part_one(text):
 	mus = 0
-	for line in filter(lambda x: len(x), text):
+	for line in text:
 		x, y = 0, 0
 
 		for i in line:
 			if i.isdigit():
-				x = int(i)
-				break
-
-		for i in line[::-1]:
-			if i.isdigit():
+				if x == -1:
+					x = int(i)
 				y = int(i)
-				break
 
 		mus += x*10 + y
 	return mus
@@ -36,8 +32,6 @@ def part_two(text):
 					x = int(i)
 				y = int(i)
 
-		print(line, x*10 + y)
-
 		mus += x*10 + y
 
 	return mus
@@ -48,8 +42,8 @@ def main():
 	with open("input.txt", "r") as file:
 		input = file.read().split("\n")
 
-	# print(part_one(input))
-	print(part_two(input))
+	print(part_one(input))
+	# print(part_two(input))
 
 if __name__ == '__main__':
 	main()
