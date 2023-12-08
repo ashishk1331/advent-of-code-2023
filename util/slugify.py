@@ -3,7 +3,7 @@ def slugify(s):
 
 def main():
 	string = """
-		Wait For It
+		 Haunted Wasteland
 	"""
 	print(slugify(string))
 
