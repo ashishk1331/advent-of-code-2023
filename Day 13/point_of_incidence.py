@@ -1,6 +1,6 @@
 # PART 1: 
 def part_one(data):
-	pass
+	return data
 
 # PART 2: 
 def part_two(data):

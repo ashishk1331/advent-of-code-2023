@@ -3,7 +3,7 @@ def slugify(s):
 
 def main():
 	string = """
-		 Haunted Wasteland
+		 Lens Library
 	"""
 	print(slugify(string))
 
