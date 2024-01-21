@@ -3,7 +3,7 @@ def slugify(s):
 
 def main():
 	string = """
-		 Lens Library
+		 The Floor Will Be Lava
 	"""
 	print(slugify(string))
 
